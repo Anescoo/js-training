@@ -1,0 +1,52 @@
+body {
+    /* background-color: rgb(247, 243, 243); */
+    /* background-image: url('https://imgs.search.brave.com/BqfKafYrwwhElaPgfeURW0iSW7wd6t_Hrk-Y5LfVFtc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vNjVBNlUv/TUFFM1RrNjVBNlUv/MS90bC9jYW52YS1t/b250YWduZXMtYnJ1/bWV1c2VzLU1BRTNU/azY1QTZVLmpwZw');
+    background-attachment: fixed;
+    /* background-size:cover; */
+    /* background-position: bottom left; */ 
+    /* background: fixed bottom left url('https://imgs.search.brave.com/BqfKafYrwwhElaPgfeURW0iSW7wd6t_Hrk-Y5LfVFtc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vNjVBNlUv/TUFFM1RrNjVBNlUv/MS90bC9jYW52YS1t/b250YWduZXMtYnJ1/bWV1c2VzLU1BRTNU/azY1QTZVLmpwZw') */
+    background: linear-gradient(60deg, red, blue);
+}
+
+.test_id {
+    color: rgb(222, 222, 227);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    text-align: right;
+    font-size: 50px;
+    text-shadow: 3px 3px 0px rgba(0,0,0,0.2);
+    padding: 100px;
+}
+
+.radius-button {
+    border-radius: 30% 70% 70% 30% / 48% 27% 73% 52%;
+    font-size: 25px;
+    background-color: skyblue;
+    /* border-radius: 10px; */
+    box-shadow: 6px 6px 0px rgba(0, 0, 0);
+    padding: 100px;
+}
+.radius-button:hover {
+    background-color: rgb(63, 163, 203);
+    color: white;
+}
+
+#test_id2 {
+    color: green;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+}
+
+/* a {
+    color: orange;
+    text-decoration:double;
+    font-family: 'Scoutie', sans-serif;
+    text-decoration: line-through;
+} */
+
+.OUI {
+    text-align: justify;
+}

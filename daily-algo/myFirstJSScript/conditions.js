@@ -24,8 +24,7 @@ switch (true) {
         console.log("Continuer de chercher");
 
 }
-
-let listeMots = ["Cachalot","Pétunia","Serviette"];
+//variables enregistrés dans config.js listMots, listPhrases
 let score = 0;
 let motUtilisateur = prompt("Veuillez entrer le mot : " + listeMots[0])
 
