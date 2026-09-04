@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3</title>
+    <link href="style1.css" rel="stylesheet"> 
+</head>
+<body>
+    <header></header>
+    <main>
+        <section>
+            <div class="conteneur">
+            <div class="box one">Element 1</div>
+            <div class="box two">Element 2</div>
+            <div class="box three">Element 3</div>
+            <div class="box four">Element 4</div>
+            <div class="box five">Element 5</div>
+            <div class="box six">Element 6</div>
+            <div class="box seven">Element 7</div>
+            <div class="box eight">Element 8</div>
+            <div class="box nine">Element 9</div>
+            <a class="uniqueAbutton" href="./index.html#test_ancre">Retour à la maison</a>
+    </div>  
+        </section>
+        <br><br>
+        <section>
+            <table>
+                <caption><b><em><mark>Passagers du vol 377</mark></em></b></caption>
+                <tr>
+                    <th>Nom</th>
+                    <th>Âge</th>
+                    <th>Pays</th>
+                </tr>
+                <tr>
+                    <td>Carmen</td>
+                    <td>33 ans</td>
+                    <td>Espagne</td>
+                </tr>
+                <tr>
+                    <td>Michelle</td>
+                    <td>26 ans</td>
+                    <td>États-Unis</td>
+                </tr>
+            </table>
+
+            <table>
+                <caption>Second tableau du vol</caption>
+                <thead>Test1</thead>
+                <tfoot>Test2</tfoot>
+                <tbody>Test3</tbodyt>
+            </table>
+        </section>
+         
+        <br><br>
+        <section>
+            <form method="post" action="">
+                <label for="prenom">Votre prénom :</label><br>
+                <input type="text" name="prenom" id="prenom" placeholder="Saisissez votre prénom" size="30" maxlength="20">
+                    <br><br>
+                <label for="ameliorer">Des conseils pour améliorer mon site ?</label><br>
+                <textarea name="ameliorer" id="ameliorer" rows="6" cols="30"></textarea>
+                    <br><br>
+                <label for="email">Votre email :</label><br>
+                <input type="email" name="email" id="email" placeholder="prenom.nom@email.com">
+                    <br><br>
+                <label for="url">Votre lien vers votre site (URL) :</label><br>
+                <input type="url" name="url" id="url" placeholder="https://...">
+                   <br><br>
+                <label for="tel">Votre numéro de téléphone :</label><br>
+                <input type="tel" name="tel" id="tel" placeholder="+33 X XX XX XX XX">
+                    <br><br>
+                <label for="number">Votre identifiant :</label><br>
+                <input type="number" name="number" id="number" placeholder="99999">
+                    <br><br>
+                <p for="range">Votre niveau de satisfaction de notre service :</p><br>
+                <input type="range" name="range" id="range" min="10" max="100" value="30" step="5">
+                <label for="range">Votre niveau de satisfaction de notre service :</label>
+                    <br><br>
+                <label for="birth-date">Votre date de naissance :</label><br>
+                <input type="date" name="birth-date" id="birth-date">
+                    <br><br>
+                <label for="search">Rechercher votre véhicule :</label><br>
+                <input type="search" name="search" id="search" placeholder="Renault Clio 3 2009">
+                <button>Rechercher</button>
+                    <br><br>
+                <p>
+                    Cochez les aliments que vous aimez manger :<br>
+                    <input type="checkbox" name="frites" id="frites"> <label for="frites">Frites</label><br>
+                    <input type="checkbox" name="steak" id="steak"> <label for="steak">Steak</label><br>
+                    <input type="radio" name="epinards" id="epinards"> <label for="epinards">Épinards</label><br>
+                    <input type="radio" name="hamburger" id="hamburger"> <label for="hamburger">Hamburger</label>                    
+                </p>
+                    <br><br>
+                <label for="pays">Dans quel pays habitez-vous ?</label>
+                <select name="pays" id="pays">
+                    <option value="espagne">Espagne</option>
+                    <option value="espagne">France</option>
+                    <option value="espagne">Belgique</option>
+                    <option value="espagne">UK</option>
+                    <option value="espagne">Roumanie</option>
+                </select>
+                <br><br>
+                <input type="submit" value="Envoyer">
+            </form>
+        </section>
+        <section>
+            <br><br><br>
+            <form method="get" action="">
+  <fieldset>
+     <legend>Vos coordonnées</legend> <!-- Titre du fieldset --> 
+     <label for="nom">Quel est votre nom ?</label>
+     <input type="text" name="nom" id="nom">
+     <label for="prenom">Quel est votre prénom ?</label>
+     <input type="text" name="prenom" id="prenom" required>
+     <label for="email">Quel est votre e-mail ?</label>
+     <input type="email" name="email" id="email" required>
+  </fieldset>
+  <fieldset>
+     <legend>Votre souhait</legend> <!-- Titre du fieldset -->
+     <p>
+        Faites un souhait que vous voudriez voir exaucé :
+        <input type="radio" name="souhait" value="riche" id="riche"> <label for="riche">Être riche</label>
+        <input type="radio" name="souhait" value="celebre" id="celebre" autofocus> <label for="celebre">Être célèbre</label>
+        <input type="radio" name="souhait" value="intelligent" id="intelligent"> <label for="intelligent">Être <strong>encore</strong> plus intelligent</label>
+        <input type="radio" name="souhait" value="autre" id="autre"> <label for="autre">Autre...</label>
+     </p>
+     <p>
+        <label for="precisions">Si "Autre", veuillez préciser :</label>
+        <textarea name="precisions" id="precisions" cols="40" rows="4"></textarea>
+     </p>
+  </fieldset>
+  <input type="submit" value="Envoyer">
+</form>
+        </section>
+        <section>
+            <p class="lorem">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, qui dolores! Maxime eveniet magni nulla saepe doloremque illo accusantium ut natus similique ipsa quibusdam aliquam quia, reiciendis ab, odit rerum?lorel
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos debitis fugiat nulla at error quia delectus cum, vel incidunt rerum dolor, qui veniam harum sapiente, eaque quo itaque rem quisquam?Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, asperiores debitis tempora nisi repellendus omnis dignissimos recusandae iusto ad saepe ea ut, deserunt quaerat. Itaque magni natus odit officiis Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque laborum excepturi officiis accusamus nostrum ad placeat, maxime autem ullam cupiditate fuga sint explicabo labore, inventore quasi enim asperiores sapiente 
+            </p>
+        </section>
+    </main>
+    
+    <footer></footer>
+    
+</body>
+</html>

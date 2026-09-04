@@ -1,0 +1,117 @@
+/* Couleurs différentes */
+.one {
+    background: linear-gradient(135deg, #ff6b6b, #ee5253);
+    grid-column-start: 1;
+    grid-column-end: 6;
+}
+.two {
+    background: linear-gradient(135deg, #48dbfb, #1e90ff);
+}
+.three {
+    background: linear-gradient(135deg, #1dd1a1, #10ac84);
+}
+.four {
+    background: linear-gradient(135deg, #1dd1a1, #2a0546);
+}
+.five {
+    background: linear-gradient(135deg, #1dd1a1, #ac7510);
+}
+.six {
+    background: linear-gradient(135deg, #1dd1a1, #4a1313);
+}
+.seven {
+    background: linear-gradient(135deg, #1dd1a1, #1823c3);
+}
+.eight {
+    background: linear-gradient(135deg, #1dd1a1, #b6cc46);
+    z-index: 1;
+}
+.nine {
+    background: linear-gradient(135deg, #1dd1a1, #ff8b32);
+}
+
+/* Effet quand on passe la souris */
+.box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.2);
+}
+
+.conteneur {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* height: 600px; */
+    /* align-items: center; */
+    justify-content: flex-start;
+   /* flex-wrap: wrap; */ 
+    gap: 20px; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+.box {
+    display: inline-block;
+    padding: 12px 24px;
+    margin: 10px;
+
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+
+    border-radius: 25px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+
+    transition: 0.3s ease;
+}
+
+.uniqueAbutton {
+    /* display: block; */
+    /* display: none; */
+    color: red;
+    position: absolute;
+    top: 200px;
+    left: 400px;
+
+}
+
+table {
+    margin: auto;
+    border-collapse: center;
+}
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+caption {
+    caption-side: bottom;
+}
+
+input:required {
+    background-color: #48dbfb;
+    color: yellowgreen;
+}
+
+input:invalid {
+    background-color: #10ac84;
+    color:#ee5253;
+}
+
+input:focus {
+    border: red 4px;
+}
+
+@media screen and (max-width: 1200px) {
+    .conteneur {
+        width: 8rm;
+    }
+}
+
+.lorem {
+    width: 250px;
+    height: 110px;
+    text-align: justify;
+    border: 1px solid black;
+    overflow: auto;
+}

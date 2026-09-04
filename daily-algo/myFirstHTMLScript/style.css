@@ -1,3 +1,8 @@
+* {
+    padding: 8px;
+
+}
+
 body {
     /* background-color: rgb(247, 243, 243); */
     /* background-image: url('https://imgs.search.brave.com/BqfKafYrwwhElaPgfeURW0iSW7wd6t_Hrk-Y5LfVFtc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vNjVBNlUv/TUFFM1RrNjVBNlUv/MS90bC9jYW52YS1t/b250YWduZXMtYnJ1/bWV1c2VzLU1BRTNU/azY1QTZVLmpwZw');
@@ -6,6 +11,22 @@ body {
     /* background-position: bottom left; */ 
     /* background: fixed bottom left url('https://imgs.search.brave.com/BqfKafYrwwhElaPgfeURW0iSW7wd6t_Hrk-Y5LfVFtc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tYXJr/ZXRwbGFjZS5jYW52/YS5jb20vNjVBNlUv/TUFFM1RrNjVBNlUv/MS90bC9jYW52YS1t/b250YWduZXMtYnJ1/bWV1c2VzLU1BRTNU/azY1QTZVLmpwZw') */
     background: linear-gradient(60deg, red, blue);
+}
+
+p em {
+    font-size: 30px;
+}
+
+br + h2 {
+    border: red 30px;
+    color: purple;
+}
+
+img[alt] {
+    color: white;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: inset;
 }
 
 .test_id {
@@ -31,6 +52,10 @@ body {
     color: white;
 }
 
+.radius-button:active {
+    background-color: #C1FFD7;
+}
+
 #test_id2 {
     color: green;
     font-size: 2rem;
@@ -40,13 +65,18 @@ body {
     text-align: center;
 }
 
-/* a {
+a:focus {
     color: orange;
-    text-decoration:double;
-    font-family: 'Scoutie', sans-serif;
+    /* text-decoration:double; */
+    /* font-family: 'Scoutie', sans-serif; */
     text-decoration: line-through;
-} */
+    text-decoration:wavy;
 
+}
+
+a:visited {
+    color: greenyellow;
+}
 .OUI {
     text-align: justify;
 }
