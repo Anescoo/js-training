@@ -1,19 +1,39 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="conditions.js"></script>
-    <script src="loops.js"></script>
-    <script src="function.js"></script>
-    <script src="config.js"></script>
-
-
-
+    <script src="scrapDOM.js" defer></script>
+    <link href="style2.css" rel="stylesheet">
+    <title>JS Course</title>
 </head>
 <body>
+    <header>
+        <h1 id="firstH1">AzerType</h1>
+    </header>
 
+    <main id="main">
+        <div id="test1">
+            <h2>Le jeu</h2>
+            <span>coment on fait</span>
+            <p>Un petit texte</p>
+            <h2>test</h2>
+        </div>
+        <div>
+            <h2>Une autre div</h2>
+            <p>Un autre texte</p>
+        </div>
+        <div class="zoneChoix">
+        <input type="radio" name="optionSource" id="mots" value="1" checked>
+        <label for="mots">Mots</label>
+        <input type="radio" name="optionSource" id="phrases" value="2">
+        <label for="phrases">Phrases</label>
+        </div>
+        <div class="zoneProposition">
+        Entrez le mot : <span>Cachalot</span>
+    </div>
+    </main>
+
+    <footer></footer>
 </body>
 </html>
