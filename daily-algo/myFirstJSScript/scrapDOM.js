@@ -19,7 +19,61 @@ for (let i = 0; i < listeInputRadio.length; i++) {
     console.log(listeInputRadio[i]);
 }
 
+let baliseImage = document.getElementById("premiereImage");
+baliseImage.setAttribute("alt", "Ceci est une image de test modifiée");
+baliseImage.src = "cheminImage.jpg";
+baliseImage.classList.add("nouvelleClasse")
+baliseImage.classList.remove("photo")
+console.log(baliseImage)
 
-let motsInput = document.getElementById("mots");
-AddS = motsInput.setAttribute("name","optionSources");
-console.log(AddS);
+//créons un nouvel element grace a createElement
+let nouvelElement = document.createElement("div");
+let parentElement = document.getElementById("main");
+
+parentElement.appendChild(nouvelElement);
+
+console.log(parentElement);
+
+
+
+
+
+// utilisez la propriété innerHTML pour insérer du HTML en quantité importante
+
+let contenuTitre = "Azertype"
+let contenuParagraphe = "L'application pour apprendre à taper plus vite !"
+let div = `
+    <div> 
+        <h1>${contenuTitre}</h1>
+        <p>${contenuParagraphe}</p>
+    </div>
+`
+body.innerHTML = div;
+
+let nouvelleDiv = document.createElement("div")
+let nouveauTitre = document.createElement("h1")
+let nouveauParagraphe = document.createElement("p")
+
+nouveauTitre.textContent = contenuTitre;
+nouveauParagraphe.textContent = contenuParagraphe;
+
+nouvelleDiv.appendChild(nouveauTitre);
+nouvelleDiv.appendChild(nouveauParagraphe);
+
+let body = document.querySelector("body")
+body.appendChild(nouvelleDiv)
+
+
+let monBouton = document.getElementById("monBouton");
+monBouton.addEventListener("click", function () {
+    console.log("Vous avez cliqué sur le bouton")
+});
+
+monBouton.addEventListener("click", () => {
+    console.log("Tu as cliqué sur un autre bouton")
+});
+
+
+document.addEventListener('keydown', (event) => {
+    console.log(event.key);
+});
